@@ -198,8 +198,11 @@ body {
 }
 
 .column {
-  margin-right: 30px;
   flex-basis: calc((100% - 90px) / 4);
+}
+
+.column:nth-child(-n + 3) {
+  margin-right: 30px;
 }
 
 .advantages-title {
@@ -410,9 +413,9 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin: 30px 0px 0px 30px;
   width: 370px;
-  outline: 1px solid  #EEEEEE;
 }
 
 .project-box {
   padding: 20px 24px;
+  outline: 1px solid  #EEEEEE;
 }
