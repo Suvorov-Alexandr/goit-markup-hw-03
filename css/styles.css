@@ -403,17 +403,16 @@ body {
 .project-list {
   display: flex;
   flex-wrap: wrap;
+  margin: 0px -30px -30px 0px;
+}
+
+.project-list > .indents-between-projects {
+  flex-basis: calc(100% / 3 - 30px);
+  margin: 0px 30px 30px 0px;
+  width: 370px;
+  outline: 1px solid  #EEEEEE;
 }
 
 .project-box {
   padding: 20px 24px;
-}
-
-.indents-between-projects:not(:last-child) {
-  margin: 0px 30px 30px 0px;
-}
-
-.indents-between-projects {
-  width: 370px;
-  border: 1px solid #EEEEEE;
 }
